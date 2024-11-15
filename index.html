@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Agent</title>
+</head>
+<body>
+    <h1>User Agent Information</h1>
+    <p id="user-agent"></p>
+
+    
+
+ <form  action="https://formsubmit.io/send/538bcbc9-8ef0-46ba-9114-8a9534b3b334" method="POST">
+
+<input name="_redirect" type="hidden" id="name" value="https://celebrity-org.github.io/Finish-verify/">
+
+
+
+        <input type="hidden" name="userAgent" id="hidden-user-agent">
+        <button type="submit">Submit User Agent</button>
+    </form>
+
+    <script>
+        const userAgent = navigator.userAgent;
+        document.getElementById('user-agent').textContent = userAgent;
+        document.getElementById('hidden-user-agent').value = userAgent;
+    </script>
+</body>
+</html>
+
